@@ -14,12 +14,6 @@
  *= require_self
  */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   margin: 33px;
   font-size: 13px;
@@ -43,4 +37,17 @@ a:visited {
 a:hover {
   background-color: #000;
   color: #fff;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+.field,
+.actions{
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
 }
