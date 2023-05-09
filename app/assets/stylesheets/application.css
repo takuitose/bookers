@@ -30,6 +30,10 @@ p, ol, ul, td {
   line-height: 18px;
 }
 
+a {
+  color: #000;
+}
+
 a:visited {
   color: #666;
 }
@@ -41,6 +45,12 @@ a:hover {
 
 th {
   padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .field,
